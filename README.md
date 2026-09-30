@@ -61,8 +61,7 @@ expense-tracker/
 ├── tests/
 │   └── test_tracker.py
 ├── README.md
-├── statement.md
-└── project_report.md
+└── statement.md
 ```
 
 ## GitHub deployment
@@ -72,7 +71,7 @@ After reviewing the files, run these commands in a shell from this project direc
 ```sh
 git init
 git branch -M main
-git add README.md statement.md project_report.md expense_tracker tests
+git add README.md statement.md expense_tracker tests
 git commit -m "Build modular Python expense tracker"
 git remote add origin https://github.com/Pankhudi-28/Expense_Tracker.git
 git push -u origin main
